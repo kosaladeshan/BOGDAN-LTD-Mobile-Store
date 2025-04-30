@@ -67,6 +67,8 @@ npm start
 4. If the carousel doesn't work:
    - Ensure Bootstrap JS is properly loaded
    - Check browser console for any errors
+  
+
 
 ### Development Tools
 - VS Code (recommended IDE)
@@ -186,6 +188,30 @@ bocdan-mobile-store/
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+# React E-Commerce Deployment Automation
+
+This script automates the deployment of a full-stack React E-Commerce application on a fresh Ubuntu EC2 instance using Docker and Docker Compose.
+
+## Features
+
+- Installs necessary dependencies (Docker, Docker Compose)
+- Sets up project directory and configurations
+- Pulls Docker images for frontend, backend, database, and Nginx load balancer
+- Configures Nginx for backend load balancing
+- Adds health check and verification scripts
+- Configures UFW firewall
+- Verifies deployment with testing tools
+
+## Usage
+
+1. Launch a new Ubuntu EC2 instance.
+2. SSH into the instance.
+3. Upload the script: `deploy-ecommerce-automation.sh`
+4. Make it executable:
+   ```bash
+   chmod +x deploy-ecommerce-automation.sh
+
 
 ## Development Team
 
