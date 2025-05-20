@@ -231,11 +231,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - React.js community for the excellent framework
 - All contributors who have helped with the project
 
-## Contact
 
-BOCDAN LTD Mobile Store
-- Website: [www.bocdanmobile.com](http://www.bocdanmobile.com)
-- Email: info@bocdanmobile.com
-- Phone: +94 XX XXX XXXX
 
 
